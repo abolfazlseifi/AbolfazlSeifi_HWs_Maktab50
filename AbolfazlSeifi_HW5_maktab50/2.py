@@ -1,0 +1,5 @@
+img_org = open("gol.jpg","rb")
+img_copy = open("gol-copy.jpg","wb")
+img_copy.write(img_org.read())
+img_copy.close()
+img_org.close()

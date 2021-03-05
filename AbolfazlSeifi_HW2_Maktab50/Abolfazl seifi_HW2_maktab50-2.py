@@ -1,0 +1,5 @@
+x =input("Enter Your Number list: ")
+x=x.split()
+print("\nYour list is: ",x)
+x = tuple(x)
+print("\nYour tuple is: ",x)

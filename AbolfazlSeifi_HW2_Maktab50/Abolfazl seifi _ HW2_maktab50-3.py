@@ -1,0 +1,5 @@
+x=list(input("Pleas Enter your list fo data: ").split())
+x.sort()
+print("Your Max is :",x[0])
+x.reverse()
+print("Your Min is :",x[0])
